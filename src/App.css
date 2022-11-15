@@ -1,38 +1,522 @@
-.App {
-  text-align: center;
+.App{
+  font-family: 'Red Rose' !important;
+
+
+}
+.overlay a{
+  text-decoration: none !important;
+  color:#A3A3A3 !important;
+}
+.me-auto{
+  font-size: 20px !important;
+  
+}
+.nav{
+  padding:20px 0px !important;
+  background-color: none !important;
+
+}
+.nav-wrap{
+  display: flex;
+  margin-left: auto !important;
+  align-items: center !important;
+ 
+
+}
+.nav img{
+  width:180px;
+  
+}
+.ref{
+  color:#434343 !important;
+  margin-right: 40px;
+  text-decoration: none;
+}
+.ref:hover{
+  color:#A02279 !important;
+}
+.container-hero{
+  padding-top: 10px;
+}
+.links{
+display:flex;
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+.wallet :nth-child(1){
+ padding:14px 27px !important;
+ background-color: #A02279;
+ color:white;
+ border-radius: 10px;
+ font-size: 20px;
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
 }
+.wallet :nth-child(1):hover{
+  color:pink
+}
+.hero-row{
+  
+  padding:100px 0px;
+}
+.hero-row p{
+  font-size: 24px;
+line-height: 35px;
+margin: 48px 0px 48px 0px;
+color:#434343;
+}
+span{
+  color:#A02279;
+  font-weight: 600;
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+}
+h1{
+  font-weight: 400 !important;
+font-size: 56px !important ;
+line-height: 140%;
+}
+.search{
+  display: flex;
+}
+input{
+  height: 54px;
+  width: 390px;
+ 
+  border:1px solid #A3A3A3;
+  border-radius: 8px 0px 0px 8px;
+  padding-left: 20px;
+  outline:none;
+  color:#434343;
+}
+::placeholder{
+  
+color:#A3A3A3;
+}
+.hero-row button{
+padding:17px 50px;
+height: 54px;
+  background-color:#A02279;
+  border: none;
+  color: white;
+  border-radius: 0px 8px 8px 0px;
+}
+.column{
+  display: flex;
+}
+.column1{
+  padding-right: 50px !important;
+}
+.nft-img1{
+  margin-right: 8px;
+  padding-top: 50px;
+  width: 100%;
+}
+.nft-img2{
+  margin-top: -50px;
+  width: 100%;
+}
+.nft-img1, .nft-img2{
   display: flex;
   flex-direction: column;
-  align-items: center;
+}
+.nft-img1 img, .nft-img2 img{
+  width: 100%;
+}
+.nft-img1 :nth-child(1), .nft-img2 :nth-child(1){
+  margin-bottom: 8px;
+}
+.vector-row{
+  background: linear-gradient(90deg, #A02279 11.45%, #A02279 11.45%);
+padding:20px 0px;
+
+
+}
+.nft{
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-items: center;
+}
+.row-nft{
+  padding:50px 0px;
+}
+.heading-inspiration{
+  font-size: 48px !important;
+  font-weight: 700 !important;
+}
+.inspo-container{
+padding:60px 0px;
+}
+.location{
+  display: flex;
+align-items: center;
+width: 100% !important;
+justify-content: space-between;
+}
+.location-input img{
+  margin-left: -30px;
+  width: 20px;
+}
+.location-input{
+  border:1px solid #B4B4B4 !important;
+  width:180px;
+  border-radius: 8px;
+  display: flex;
+  font-size: 16px;
+
+}
+.location-inputt{
+  border:1px solid #B4B4B4 !important;
+  width:170px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center !important;
+  font-size: 16px;
+ 
+}
+.location-inputt input{
+  width:80%;
+  border: none;
+  background-color: white transparent;
+  height:50px;
+}
+.location-inputt img{
+  width: 20px;
+}
+.location input::placeholder{
+  font-size: 16px;
+}
+.location input{
+ border: none;
+ width: 150px;
+
+
+}
+.location :nth-child(n){
+ 
+font-weight: 400;
+font-size: 20px;
+text-decoration: none;
+color: #434343;
+}
+.location :nth-child(9){
+  margin-right: 0px;
+}
+select{
+  border: none;
+  outline: none;
+  font-size: 20px !important;
+  color: #434343;
+  padding: 0px !important;
+  margin-right: auto !important;
+  background-color: white !important;
+
+}
+.location-select{
+  display: flex;
+  display: none;
+}
+
+.card-wrapper{
+  border: 1px solid #D7D7D7;
+  padding: 10px;
+  border-radius: 15px;
+  margin-bottom: 20px;
+}
+
+.card-wrapper img{
+  width: 100%;
+  margin-bottom: 20px;
+}
+.card-text{
+  display: flex;
+  font-size: 12px;
+ 
+}
+.mbt{
+ margin-left: auto;
+ text-align: right;
+ padding-left: 30px;
+}
+.mbt :nth-child(1){
+  font-weight: 700;
+}
+.ratings img{
+  width:10px;
+  margin-right: 4px;
+}
+.meta-container{
+  background-color: #A02279;
+  padding: 100px 0px;
+  color:white;
+}
+.meta-container img{
+  width: 80%;
+}
+.meta-container p{
+font-size: 18px;
+line-height: 35px;
+margin:50px 0px 70px 0px;
+}
+.bnb{
+ padding-top: 100px;
+}
+.bnb-row h1{
+  font-weight: 700 !important;
+  font-size: 48px !important;
+}
+.frame9{
+  display: flex;
+  justify-content: center !important;
+}
+.learn-more{
+color:#A02279;
+  text-decoration: none;
+  padding:14px 33px;
+  background-color: white;
+  border-radius: 8px;
+
+}
+.footer-logo{
+  width:180px;
+}
+.footer-links{
+  display: flex;
+  flex-direction: column;
+}
+.footer-container{
+  background-color: #1D1D1E;
+  padding:80px 0px;
   color: white;
 }
+.footer-links p{
+  margin-bottom: 50px !important;
+  font-size: 18px;
+  font-weight: bold;
+}
+.footer-links a{
+  text-decoration: none !important;
+  color: #F1F3F9 !important;
+  margin-bottom: 30px;
+  font-size: 14px;
+}
+.footer-links a:hover{
+  color: #A02279 !important;
+}
+.copyright{
+  font-size: 16px !important;
+  font-weight: 400 !important;
+}
+.footer-logo{
+  margin-bottom: 150px;
+}
+.socials img{
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+.modal__container{
+  max-width: 600px;
+  width: 100%;
 
-.App-link {
-  color: #61dafb;
+  background-color: white;
+  border-radius: 16px;
+  margin-top: 20vh;
+  position: fixed;
+  
+}
+.modal-heading{
+  border-bottom: 1px solid #CFD8DC;;
+  padding:20px 30px;
+  display: flex;
+
+}
+.modal-heading :nth-child(2){
+  margin-left: auto;
+}
+.overlay{
+  background: rgba(64, 64, 64, 0.3);
+  height: 100% !important;
+  width: 100% !important;
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto !important;
+  left:0%;
+  top: 0%;
+}
+.modal-heading h3{
+  font-weight: 700 !important;
+  font-size: 24px !important;
+}
+.wallet-wrap{
+  padding:15px 30px;
+  padding-top: 30px;
+}
+.wallet-wrap p{
+  font-size: 16px !important;
+}
+.wallets{
+  display: flex;
+  align-items: center;
+  border: 1px solid  #CFD8DC;
+  border-radius: 12px;
+  padding:10px 15px;
+  margin-bottom: 16px !important;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.wallets :nth-child(1){
+  width: 40px !important;
+  margin-right: 16px;
+}
+.wallets :nth-child(3){
+margin-left: auto;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.wallets h4{
+  font-size: 18px !important;
+  color: 
+  #000000;
+  font-weight: 600 ;
+  margin-top: 10px;
+}
+.wallets:hover{
+background-color: #F8F9FA !important;
+transition: 0.3s ease-in-out;
+}
+.btn{
+  border: none !important;
+
+}
+
+.btn:hover{
+  background-color: #A02279 !important;
+  border: none;
+  color:white !important;
+}
+.btn-x{
+  background: white !important;
+}
+.btn-x:hover{
+  background-color: white !important;
+}
+
+@media screen and (max-width:991px){
+  .column{
+    margin-top: 50px !important;
   }
-  to {
-    transform: rotate(360deg);
+  .nft-img2{
+    margin-top: 0px;
+  }
+ .nft img{
+  width: 80%;
+ }
+ .frame9{
+  padding-top: 50px;
+  margin-bottom: 100px;
+  justify-content: left;
+ }
+ .bnb-row{
+  flex-direction: column-reverse;
+ }
+ .nav-wrap{
+  flex-direction: column !important;
+align-items: flex-start !important;
+padding: 20px 0px !important;
+ }
+ .links{
+  flex-direction: column;
+ }
+ .bnb{
+  padding-top: 0px;
+ }
+ .meta-container{
+  padding-top: 50px;
+ }
+ .column1{
+  padding-right: 10px !important;
+}
+.footer-links{
+  margin-bottom: 20px;
+}
+.modal__container{
+  width: 85%;
+}
+.location{
+  display: none;
+}
+.location-select{
+ display: flex;
+}
+.location-inputt input{
+ padding-left: 10px;
+ margin:0px !important;
+
+}
+
+.heading-inspiration{
+  text-align: center !important;
+}
+.bnb{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.modal__container{
+
+  margin-top: 45vh;
+  position: fixed;
+  
+}
+select{
+  font-size: 16px !important;
+
+}
+.ref{
+  margin-bottom: 10px !important;
+  font-size: 18px !important;
+}
+.btn{
+  font-size: 16px !important;
+}
+
+}
+@media screen  and (max-width:760px) {
+  .footer-logo{
+    margin-bottom: 38px;
+  }
+  .column1 h1{
+    font-weight: 400 !important;
+  font-size: 46px !important ;
+  line-height: 120%;
+  }
+  .heading-inspiration, .bnb h1{
+    font-size: 30px !important;
+  }
+  .hero-row{
+    padding-top: 50px;
+  }
+  .column1 p{
+    font-size: 18px !important;
+  }
+  .wrapper-container, .footer-container, .meta-container{
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+  }
+}
+@media screen and (max-width:365px){
+  .search{
+    display: flex;
+    flex-direction: column;
+  }
+  input{
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 10px !important;
+  }
+  .search button{
+    width: 100%;
+    border-radius: 8px;
+  }
+  .wallets h4{
+    font-size: 16px !important;
   }
 }
